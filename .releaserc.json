@@ -12,7 +12,9 @@
     [
       "@semantic-release/gitlab",
       {
-        "gitlabUrl": "https://gitlab.com"
+        "gitlabUrl": "https://gitlab.com",
+        "successComment": false,
+        "failComment": false
       }
     ],
     [
